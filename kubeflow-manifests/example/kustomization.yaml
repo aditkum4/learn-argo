@@ -48,51 +48,51 @@ resources:
 
 # Dex
 - ../common/dex/overlays/oauth2-proxy
-# # KNative
-# - ../common/knative/knative-serving/overlays/gateways
+# KNative
+- ../common/knative/knative-serving/overlays/gateways
 # # Uncomment the following line if `knative-eventing` is required
 # # - ../common/knative/knative-eventing/base
-# - ../common/istio-1-23/cluster-local-gateway/base
-# # Kubeflow namespace
-# - ../common/kubeflow-namespace/base
-# # NetworkPolicies
-# - ../common/networkpolicies/base
-# # Kubeflow Roles
-# - ../common/kubeflow-roles/base
-# # Kubeflow Istio Resources
-# - ../common/istio-1-23/kubeflow-istio-resources/base
+- ../common/istio-1-23/cluster-local-gateway/base
+# Kubeflow namespace
+- ../common/kubeflow-namespace/base
+# NetworkPolicies
+- ../common/networkpolicies/base
+# Kubeflow Roles
+- ../common/kubeflow-roles/base
+# Kubeflow Istio Resources
+- ../common/istio-1-23/kubeflow-istio-resources/base
 
 
-# # Kubeflow Pipelines
-# - ../apps/pipeline/upstream/env/cert-manager/platform-agnostic-multi-user
-# # Katib
-# - ../apps/katib/upstream/installs/katib-with-kubeflow
-# # Central Dashboard
-# - ../apps/centraldashboard/overlays/oauth2-proxy
-# # Admission Webhook
-# - ../apps/admission-webhook/upstream/overlays/cert-manager
-# # Jupyter Web App
-# - ../apps/jupyter/jupyter-web-app/upstream/overlays/istio
-# # Notebook Controller
-# - ../apps/jupyter/notebook-controller/upstream/overlays/kubeflow
-# # Profiles + KFAM
-# - ../apps/profiles/upstream/overlays/kubeflow
-# # PVC Viewer
-# - ../apps/pvcviewer-controller/upstream/base
-# # Volumes Web App
-# - ../apps/volumes-web-app/upstream/overlays/istio
-# # Tensorboards Controller
-# - ../apps/tensorboard/tensorboard-controller/upstream/overlays/kubeflow
-# # Tensorboard Web App
-# - ../apps/tensorboard/tensorboards-web-app/upstream/overlays/istio
-# # Training Operator
-# - ../apps/training-operator/upstream/overlays/kubeflow
-# # User namespace
-# - ../common/user-namespace/base
+# Kubeflow Pipelines
+- ../apps/pipeline/upstream/env/cert-manager/platform-agnostic-multi-user
+# Katib
+- ../apps/katib/upstream/installs/katib-with-kubeflow
+# Central Dashboard
+- ../apps/centraldashboard/overlays/oauth2-proxy
+# Admission Webhook
+- ../apps/admission-webhook/upstream/overlays/cert-manager
+# Jupyter Web App
+- ../apps/jupyter/jupyter-web-app/upstream/overlays/istio
+# Notebook Controller
+- ../apps/jupyter/notebook-controller/upstream/overlays/kubeflow
+# Profiles + KFAM
+- ../apps/profiles/upstream/overlays/kubeflow
+# PVC Viewer
+- ../apps/pvcviewer-controller/upstream/base
+# Volumes Web App
+- ../apps/volumes-web-app/upstream/overlays/istio
+# Tensorboards Controller
+- ../apps/tensorboard/tensorboard-controller/upstream/overlays/kubeflow
+# Tensorboard Web App
+- ../apps/tensorboard/tensorboards-web-app/upstream/overlays/istio
+# Training Operator
+- ../apps/training-operator/upstream/overlays/kubeflow
+# User namespace
+- ../common/user-namespace/base
 
-# # KServe
-# - ../contrib/kserve/kserve
-# - ../contrib/kserve/models-web-app/overlays/kubeflow
+# KServe
+- ../contrib/kserve/kserve
+- ../contrib/kserve/models-web-app/overlays/kubeflow
 
 # # Ray is an experimental integration
 # # Here is the documentation for Ray: https://docs.ray.io/en/latest/
